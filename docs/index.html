@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ryu Bots Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0b1020;
+      color: #e7eefc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      width: min(720px, 92vw);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 14px;
+      background: linear-gradient(180deg, rgba(24, 34, 58, 0.95), rgba(16, 24, 40, 0.95));
+      padding: 28px;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+    }
+    h1 { margin: 0 0 10px; font-size: 24px; }
+    p { margin: 0 0 12px; color: rgba(231, 238, 252, 0.78); }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: #2f6fed;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hint { font-size: 13px; color: rgba(231, 238, 252, 0.58); margin-top: 12px; }
+    code { color: #9ad1ff; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Ryu Bots Web UI</h1>
+    <p>This Pages site is the public project entry point.</p>
+    <p>Run the live dashboard from your Render deployment URL.</p>
+    <a class="btn" href="#" id="renderLink">Open Render App</a>
+    <p class="hint">After Render is live, replace the link in <code>docs/index.html</code>.</p>
+  </div>
+</body>
+</html>
