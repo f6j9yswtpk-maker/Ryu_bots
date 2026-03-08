@@ -1,0 +1,10 @@
+py-clob-client>=0.29.0
+python-dotenv>=1.0.0
+loguru>=0.7.0
+requests>=2.31.0
+APScheduler>=3.10.0
+python-telegram-bot>=21.0
+PyYAML>=6.0
+rich>=13.0.0
+playwright>=1.40.0
+tweepy>=4.14.0

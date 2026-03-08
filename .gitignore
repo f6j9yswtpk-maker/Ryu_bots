@@ -1,0 +1,11 @@
+.env
+logs/
+*.json
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+recordings/
+screenshots/
+reporting_stats.db
